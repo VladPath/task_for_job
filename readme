@@ -1,3 +1,28 @@
 
-1. запуск виртуального окружения - source venv/bin/activate
-2. 
+
+## Структура репозитория
+1. `tests` = <Название папки с тестами>
+2. `code` = <task_for_job>
+3. `docker` = <Название `dockerfile` или `docker-compose.yaml`>
+4. `migrations` = <task_for_job/my_app/migrations>
+
+## Инструкции по локальному запуску
+1. запуск виртуального окружения, активация локального сервера - 
+source venv/bin/activate
+cd/task
+python3 manage.py runserver
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
