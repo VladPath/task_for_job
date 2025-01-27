@@ -6,5 +6,6 @@ from my_app import views
 urlpatterns = [
     path('login/', views.login, name='home'),
     path('patients/', views.patients, name='patients'),
+    path('accounts/',include('django.contrib.auth.urls')),
 ]
 

@@ -9,7 +9,7 @@
 ## Инструкции по локальному запуску
 1. запуск виртуального окружения, активация локального сервера - 
 source venv/bin/activate
-cd/task
+cd task
 python3 manage.py runserver
 
 
