@@ -1,4 +1,5 @@
 import json
+import orjson
 import time
 
 def count_items_and_sum(path_file):
@@ -7,7 +8,7 @@ def count_items_and_sum(path_file):
     pass_id = set()
     try:
         with open(path_file, "r") as f:
-            data = json.load(f)
+            data = orjson.loads(f.read())
             
             for i in data:
                 if i['id'] not in pass_id:
